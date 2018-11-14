@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# String Algorithms
 from operator import itemgetter
 from collections import OrderedDict
+
 
 def fun(file_name):
     seqTest = OrderedDict()
     gcContent = OrderedDict()
-    f = open('rosalind_GC.txt', 'rt')
+    f = open(file_name, 'rt')
     for line in f:
         line = line.rstrip()
         if line.startswith('>'):

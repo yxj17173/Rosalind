@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# String Algorithms
 
 
 def fun(file_name):
@@ -9,7 +10,6 @@ def fun(file_name):
     result = string
     f.write(result)
     f.close()
-
 
 if __name__ == '__main__':
     fun("rosalind_rna.txt")

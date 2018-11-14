@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# String Algorithms
+
 
 def fun(file_name):
     string = open(file_name, "rt").read().replace("\n", "")
