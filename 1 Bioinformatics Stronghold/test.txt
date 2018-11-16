@@ -1,14 +1,6 @@
 >Rosalind_1
-ATCCAGCT
+GATTACA
 >Rosalind_2
-GGGCAACT
+TAGACCA
 >Rosalind_3
-ATGGATCT
->Rosalind_4
-AAGCAACC
->Rosalind_5
-TTGGAACT
->Rosalind_6
-ATGCCATT
->Rosalind_7
-ATGGCACT
+ATACA
