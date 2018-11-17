@@ -12,7 +12,7 @@ def replace_all(repls, str):
 
 def fun(file_name):
     string = open(file_name, "rt").read().replace("\n", "")
-    string = replace_all({"T":"A","A":"T","C":"G","G":"C"},string)
+    string = replace_all({"T":"A","A":"T","C":"G","G":"C"}, string)
     result = string[::-1]
     f = open("result_revc.txt", "w+")
     f.write(result)

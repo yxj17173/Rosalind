@@ -10,6 +10,7 @@ def fun(file_name):
     gcContent = OrderedDict()
     f = open(file_name, 'rt')
     for line in f:
+        #print(line)
         line = line.rstrip()
         if line.startswith('>'):
             seqName = line[1:]
